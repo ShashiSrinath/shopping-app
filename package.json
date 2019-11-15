@@ -1,0 +1,19 @@
+{
+  "name": "shopping",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.2.0",
+    "express": "~4.16.1",
+    "mongoose": "^5.7.11",
+    "nodemon": "^1.19.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.5"
+  }
+}
